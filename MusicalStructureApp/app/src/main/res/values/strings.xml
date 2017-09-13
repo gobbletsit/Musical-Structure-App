@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Musical Structure App</string>
+    <string name="main_activity">Main</string>
+    <string name="now_playing_">Now Playing</string>
+    <string name="artist_screen">Artist</string>
+    <string name="playlists">Playlists</string>
+    <string name="search_screen">Search</string>
+
+    <string name="main_text">This screen represents the opening screen of a musical structure app. From this screen the user can choose from a variety of options. Wheather to use the search screen to find a song or playlist, to browse through the playlists or artists, or to just check the now playing screen to see what is the last song he has been listening and maybe continue from where he left of</string>
+    <string name="now_playing_text">In now playing screen the user can track currently selected option of the song he has previously chosen. He could pause, play, stop or shift to a next or a previously listened song. All this would be implemented with onClickListeners to start or stop the media player and to draw files from raw folder to switch songs in a certain position. Also the user could use the buttons to check out other screens while playing the song and maybe do a search or a artist selevtion.</string>
+    <string name="artist_text">The Artist category screen is here to help the user choose a song or a playlist by browsing through the artist list. Once the artist is selected (pressed) it would redirect the user to a playlist or a song category with intents depending on the user preferences. Also the screen would contain buttons which would redirect the user to other categories upon pressing.</string>
+    <string name="playlist_text">As the name of the category implies the user would be able to select from a different types of already made playlist. He would be also be able to add songs to a playlist or to delete or rearrange the song list in a playlist (array list of ints for songs). The screen would also contain buttons which would redirect the user to other necessary categories. </string>
+    <string name="search_text">The search option is good choice for a user if the song library contains a lot of choices or is just crowded with songs and playlists. This option gives the user a much faster approach for finding an option he or she has set in mind. </string>
+
+</resources>

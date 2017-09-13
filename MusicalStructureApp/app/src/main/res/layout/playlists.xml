@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/relative_style">
+
+    <TextView
+        style="@style/text_view_style"
+        android:text="@string/playlist_text" />
+
+    <Button
+        android:id="@+id/main_2"
+        style="@style/button_style"
+        android:text="@string/main_activity" />
+
+    <Button
+        android:id="@+id/now_playing_2"
+        style="@style/button_style"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/now_playing_" />
+
+    <Button
+        android:id="@+id/artist_screen_3"
+        style="@style/button_style"
+        android:layout_alignParentBottom="true"
+        android:text="@string/artist_screen" />
+
+    <Button
+        android:id="@+id/search_3"
+        style="@style/button_style"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/search_screen" />
+
+</RelativeLayout>

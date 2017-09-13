@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/relative_style"
+    tools:context="com.example.android.musicalstructureapp.MainActivity">
+
+    <TextView
+        style="@style/text_view_style"
+        android:text="@string/main_text"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/playlists"
+        style="@style/button_style"
+        android:text="@string/playlists" />
+
+    <Button
+        android:id="@+id/artist_screen"
+        style="@style/button_style"
+        android:layout_alignParentBottom="true"
+        android:text="@string/artist_screen" />
+
+    <Button
+        android:id="@+id/search"
+        style="@style/button_style"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/search_screen" />
+
+    <Button
+        android:id="@+id/now_playing"
+        style="@style/button_style"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/now_playing_" />
+
+</RelativeLayout>
